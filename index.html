@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="uk">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Digital Project</title>
+
+      <!-- Normalize -->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      />
+
+      <!-- Animation on scroll -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+      <!-- Custom styles -->
+      <link rel="stylesheet" href="./css/styles.css" />
+   </head>
+   <body>
+      <header class="header" id="main">
+         <div class="header-container container">
+            <a class="header-logo link" href="./index.html">
+               <svg class="logo-text" width="70" height="44">
+                  <use href="./img/sprite.svg#icon-logo"></use>
+               </svg>
+            </a>
+            <nav class="header-nav">
+               <ul class="header-nav-list list">
+                  <li class="header-nav-item">
+                     <a class="header-nav-link active link" href="#main">Головна</a>
+                  </li>
+                  <li class="header-nav-item">
+                     <a class="header-nav-link link" href="#gallery">Галерея</a>
+                  </li>
+                  <li class="header-nav-item">
+                     <a class="header-nav-link link" href="#projects">Проекти</a>
+                  </li>
+                  <li class="header-nav-item">
+                     <a class="header-nav-link link" href="">Сертифікати</a>
+                  </li>
+                  <li class="header-nav-item">
+                     <a class="header-nav-link link" href="#contacts">Контакти</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <main>
+         <!-- HERO -->
+         <section class="section-hero section" id="gallery">
+            <div class="hero-container container">
+               <div class="hero-left-side">
+                  <h1 class="hero-title">PROJECT <span class="hero-title-span">HOME</span></h1>
+                  <button class="arrow-btn left" type="button">
+                     <svg class="arrow-icon" width="17" height="8">
+                        <use href="./img/sprite.svg#icon-arrow-left"></use>
+                     </svg>
+                  </button>
+                  <button class="arrow-btn" type="button">
+                     <svg class="arrow-icon" width="17" height="8">
+                        <use href="./img/sprite.svg#icon-arrow-right"></use>
+                     </svg>
+                  </button>
+                  <div class="hero-counter">
+                     <p class="hero-item counter">01</p>
+                     <p class="hero-item">02</p>
+                  </div>
+               </div>
+               <div class="hero-right-side">
+                  <img src="./img/Hero-img.jpg" alt="Фасад будинку" width="770" height="829" />
+                  <button class="btn hero-btn btn-scale" type="button">
+                     Переглянути
+                     <svg class="arrow-icon icon-btn" width="17" height="8">
+                        <use href="./img/sprite.svg#icon-arrow-right"></use>
+                     </svg>
+                  </button>
+               </div>
+            </div>
+         </section>
+         <!-- About Company -->
+         <section class="section-about-company section">
+            <div class="container-about-company container">
+               <ul class="company-list-img list">
+                  <li class="list-img-item"
+                     ><img src="./img/building1.jpg" alt="building1" width="270" height="265"
+                  /></li>
+                  <li class="list-img-item"
+                     ><img src="./img/building2.jpg" alt="building1" width="270" height="345"
+                  /></li>
+                  <li class="list-img-item"
+                     ><img src="./img/building3.jpg" alt="building1" width="270" height="140"
+                  /></li>
+               </ul>
+               <div class="right-side-company">
+                  <h2 class="title">Про компанію</h2>
+                  <p class="text-about-company"
+                     >Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                     when an unknown printer took a galley of type and scrambled it to make a type
+                     specimen book. It has survived not only five centuries, but also the leap into
+                     electronic typesetting, remaining essentially unchanged.
+                  </p>
+                  <button class="btn btn-scale" type="button">
+                     Читати
+                     <svg class="arrow-icon icon-btn" width="17" height="8">
+                        <use href="./img/sprite.svg#icon-arrow-right"></use>
+                     </svg>
+                  </button>
+               </div>
+            </div>
+         </section>
+         <!-- Main goals -->
+         <section class="section-main-goals section">
+            <div class="container">
+               <h2 class="title title-goals">Основні завдання</h2>
+               <ul class="list-goals list">
+                  <li class="list-goals-item"
+                      data-aos="fade-right"
+                      data-aos-duration="600"
+                      data-aos-delay="300">
+                     <p class="goals-numb">1</p>
+                     <p class="goals-text">
+                        Створення комфортних умов та підвищення якості обслуговування клієнтів
+                     </p>
+                  </li>
+                  <li class="list-goals-item"
+                      data-aos="fade-right"
+                      data-aos-duration="600"
+                      data-aos-delay="600">
+                     <p class="goals-numb">2</p>
+                     <p class="goals-text">
+                        Постійно вдосконалювати якість послуг шляхом навчання персоналу, закупівлі
+                        нового обладнання та посиленої реклами на ринку
+                     </p>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <!-- Our Projects -->
+         <section class="section-projects section" id="projects">
+            <div class="container">
+               <h2 class="title project-title">Наші проекти</h2>
+               <ul class="progects-list list">
+                  <li class="project-card">
+                     <div class="project-thumb">
+                        <img
+                           src="./img/project1.jpg"
+                           alt="project building1"
+                           width="570"
+                           heigth="255"
+                        />
+                        <div class="overlay">
+                           <p class="overlay-text-big"> Розважальний центр </p>
+                           <a
+                              href="./img/project1.jpg"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              class="link overlay-link"
+                           >
+                              Докладніше
+                              <svg class="arrow-icon icon-btn" width="17" height="8">
+                                 <use href="./img/sprite.svg#icon-arrow-right"></use>
+                              </svg>
+                           </a>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="project-card">
+                     <div class="project-thumb">
+                        <img
+                           src="./img/project2.jpg"
+                           alt="project building2"
+                           width="570"
+                           heigth="255"
+                        />
+                        <div class="overlay">
+                           <p class="overlay-text-big"> Оперний театр </p>
+                           <a
+                              href="./img/project2.jpg"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              class="link overlay-link"
+                           >
+                              Докладніше
+                              <svg class="arrow-icon icon-btn" width="17" height="8">
+                                 <use href="./img/sprite.svg#icon-arrow-right"></use>
+                              </svg>
+                           </a>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="project-card">
+                     <div class="project-thumb">
+                        <img
+                           src="./img/project3.jpg"
+                           alt="project building3"
+                           width="270"
+                           heigth="255"
+                        />
+                        <div class="overlay">
+                           <p class="overlay-text-little"> Центр сімейного відпочинку </p>
+                           <a
+                              href="./img/project3.jpg"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              class="link overlay-link"
+                           >
+                              Докладніше
+                              <svg class="arrow-icon icon-btn" width="17" height="8">
+                                 <use href="./img/sprite.svg#icon-arrow-right"></use>
+                              </svg>
+                           </a>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="project-card">
+                     <div class="project-thumb">
+                        <img
+                           src="./img/project4.jpg"
+                           alt="project building4"
+                           width="470"
+                           heigth="255"
+                        />
+                        <div class="overlay">
+                           <p class="overlay-text-little"> Житловий комплекс </p>
+                           <a
+                              href="./img/project4.jpg"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              class="link overlay-link"
+                           >
+                              Докладніше
+                              <svg class="arrow-icon icon-btn" width="17" height="8">
+                                 <use href="./img/sprite.svg#icon-arrow-right"></use>
+                              </svg>
+                           </a>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="project-card">
+                     <div class="project-thumb">
+                        <img
+                           src="./img/project5.jpg"
+                           alt="project building5"
+                           width="370"
+                           heigth="255"
+                        />
+                        <div class="overlay">
+                           <p class="overlay-text-little"> Музей </p>
+                           <a
+                              href="./img/project5.jpg"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              class="link overlay-link"
+                           >
+                              Докладніше
+                              <svg width="17" height="8">
+                                 <use href="./img/sprite.svg#icon-arrow-right"></use>
+                              </svg>
+                           </a>
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+               <div class="proj-btn-container">
+                  <button class="btn dark-btn-project" type="button">
+                     Читати
+                     <svg class="icon-btn arrow-white" width="17" height="8">
+                        <use href="./img/sprite.svg#icon-arrow-right"></use>
+                     </svg>
+                  </button>
+               </div>
+            </div>
+         </section>
+         <!-- Connect with us -->
+         <section class="section-connect section">
+            <div class="container">
+               <h2 class="title">Зв'язатися з нами</h2>
+               <div class="container-form">
+                  <form class="connect-form">
+                     <div class="connect-form-cont">
+                        <label class="connect-form-field">
+                           <input
+                              type="text"
+                              name="user_name"
+                              class="connect-form-input"
+                              required
+                              pattern="^[a-zA-Zа-яА-ЯіІїЇ]+"
+                              minlength="2"
+                              placeholder="Ім'я"
+                           />
+                        </label>
+                        <svg class="connect-form-icon" width="18" height="24">
+                           <use href="./img/sprite.svg#icon-person"></use>
+                        </svg>
+                     </div>
+                     <div class="connect-form-cont">
+                        <label class="connect-form-field">
+                           <input
+                              type="tel"
+                              name="user_phone"
+                              class="connect-form-input"
+                              required
+                              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                              title="xxx-xxx-xx-xx"
+                              placeholder="Номер телефону"
+                           />
+                        </label>
+                        <svg class="connect-form-icon" width="18" height="24">
+                           <use href="./img/sprite.svg#icon-phone"></use>
+                        </svg>
+                     </div>
+                     <div class="connect-form-cont">
+                        <label class="connect-form-field">
+                           <input
+                              type="email"
+                              name="user_email"
+                              class="connect-form-input"
+                              required
+                              title="name@email"
+                              placeholder="E-mail"
+                           />
+                        </label>
+                        <svg class="connect-form-icon" width="18" height="24">
+                           <use href="./img/sprite.svg#icon-email"></use>
+                        </svg>
+                     </div>
+                     <div class="connect-form-cont">
+                        <label class="connect-form-field">
+                           <input
+                              type="text"
+                              name="user_product"
+                              class="connect-form-input"
+                              required
+                              placeholder="Товар/послуга, що цікавить"
+                           />
+                        </label>
+                        <svg class="connect-form-icon" width="18" height="24">
+                           <use href="./img/sprite.svg#icon-cart"></use>
+                        </svg>
+                     </div>
+                     <label class="connect-form-field form-message">
+                        <textarea
+                           name="user_message"
+                           class="connect-form-message"
+                           placeholder="Повідомлення"
+                        ></textarea>
+                     </label>
+
+                     <label class="connect-form-check-desc">
+                        <input
+                           id="user-policy"
+                           type="checkbox"
+                           name="user_policy"
+                           class="connect-form-check visually-hidden"
+                        />
+                        <svg class="check-desc-icon" width="16" height="16">
+                           <use href="./img/sprite.svg#icon-check"></use>
+                        </svg>
+                        Надсилаючи заявку Ви погоджуєтесь з
+                        <a class="connect-form-policy" href="">політикою конфіденційності</a>
+                     </label>
+                     <button class="btn dark-btn-project" type="submit">
+                        Відправити
+                        <svg class="icon-btn arrow-white" width="17" height="8">
+                           <use href="./img/sprite.svg#icon-arrow-right"></use>
+                        </svg>
+                     </button>
+                  </form>
+
+                  <img
+                     src="./img/people.jpg"
+                     alt="a man with a mobile phone"
+                     width="749"
+                     height="369"
+                  />
+               </div>
+            </div>
+         </section>
+      </main>
+      <!-- Footer -->
+      <footer class="footer" id="contacts">
+         <div class="footer-container container">
+            <ul class="footer-list list">
+               <li class="footer-list-item">
+                  <a class="footer-logo link" href="./index.html">
+                     <svg class="logo-text" width="145" height="94">
+                        <use href="./img/sprite.svg#icon-logo"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="footer-list-item">
+                  <h3 class="footer-title">Інформація</h3>
+                  <ul class="footer-nav list">
+                     <li class="footer-nav-item"
+                        ><a class="footer-nav-link link" href="#main">Головна</a></li
+                     >
+                     <li class="footer-nav-item"
+                        ><a class="footer-nav-link link" href="#gallery">Галерея</a></li
+                     >
+                     <li class="footer-nav-item"
+                        ><a class="footer-nav-link link" href="#projects">Проекти</a></li
+                     >
+                     <li class="footer-nav-item"
+                        ><a class="footer-nav-link link" href="">Сертифікати</a></li
+                     >
+                     <li class="footer-nav-item"
+                        ><a class="footer-nav-link link" href="">Контакти</a></li
+                     >
+                  </ul>
+               </li>
+               <li class="footer-list-item">
+                  <h3 class="footer-title">Контакти</h3>
+                  <address class="contacts-address">
+                     <a
+                        class="contacts-link link"
+                        href="https://goo.gl/maps/Mt93E9BvQyTyTMGq9"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                     >
+                        <svg class="contacts-icon" width="16" height="16">
+                           <use href="./img/sprite.svg#icon-geoposition"></use>
+                        </svg>
+                        01001, Україна, Київ, </br> 
+                        вул. Крещатик, 19a
+                        </a
+                     >
+                     <a class="contacts-link link" href="tel:+380000000000">
+                        <svg class="contacts-icon" width="16" height="16">
+                           <use href="./img/sprite.svg#icon-tel"></use>
+                        </svg>
+                        +38 (000) 000 00 00</a
+                     >
+                     <a class="contacts-link link" href="mailto:barbershop@email.com">
+                        <svg class="contacts-icon" width="16" height="16">
+                           <use href="./img/sprite.svg#icon-mail"></use>
+                        </svg>
+                        digitalproject@email.com</a
+                     >
+                  </address>
+               </li>
+               <li class="footer-list-item">
+                    <h3 class="footer-title">Соціальні мережі</h3>
+                        <ul class="social-media-list list">
+                            <li class="social-list-item">
+                                <a href="https://www.facebook.com" class="social-media-link link">
+                                    <svg class="social-media-icon" width="10" height="19">
+                                        <use href="./img/sprite.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="https://twitter.com" class="social-media-link link">
+                                    <svg class="social-media-icon" width="22" height="17">
+                                        <use href="./img/sprite.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="https://www.linkedin.com" class="social-media-link link">
+                                    <svg class="social-media-icon" width="20" height="20">
+                                        <use href="./img/sprite.svg#icon-Linked-In"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="https://ru.pinterest.com" class="social-media-link link">
+                                    <svg class="social-media-icon" width="14" height="19">
+                                        <use href="./img/sprite.svg#icon-pininterest"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                </li>
+            </ul>
+            <p class="copyright">&#169; 2023 Digital Project. Всі права захищені.</p>
+         </div>
+      </footer>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+   </body>
+</html>
